@@ -26,5 +26,5 @@ func main() {
 }
 
 func goWithDocker(c echo.Context)error{
- return c.JSON(http.StatusOK, "Go with Docker Container")
+ return c.JSON(http.StatusOK, "Go with Docker Container v1")
 }
